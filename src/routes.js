@@ -1,37 +1,39 @@
-import HomePage from './pages/home.vue';
-import AboutPage from './pages/about.vue';
-import FormPage from './pages/form.vue';
-import DynamicRoutePage from './pages/dynamic-route.vue';
+import HomeIndexPage from './views/home/index.vue';
+import DialogueIndexPage from './views/dialogue/index.vue';
+import CommunityIndexPage from './views/community/index.vue';
+import ResonanceIndexPage from './views/resonance/index.vue';
+import MeIndexPage from './views/me/index.vue';
+
+
 import NotFoundPage from './pages/not-found.vue';
 
-import PanelLeftPage from './pages/panel-left.vue';
-import PanelRightPage from './pages/panel-right.vue';
-
 export default [
+  // 主页 发现
   {
     path: '/',
-    component: HomePage,
+    component: HomeIndexPage,
   },
+  // 对话
   {
-    path: '/panel-left/',
-    component: PanelLeftPage,
+    path: '/dialogue/',
+    component: DialogueIndexPage,
   },
+  // 社区
   {
-    path: '/panel-right/',
-    component: PanelRightPage,
+    path: '/community/',
+    component: CommunityIndexPage,
   },
+  // 共鸣
   {
-    path: '/about/',
-    component: AboutPage,
+    path: '/resonance/',
+    component: ResonanceIndexPage,
   },
+  // 我的
   {
-    path: '/form/',
-    component: FormPage,
+    path: '/me/',
+    component: MeIndexPage,
   },
-  {
-    path: '/dynamic-route/blog/:blogId/post/:postId/',
-    component: DynamicRoutePage,
-  },
+  
   {
     path: '(.*)',
     component: NotFoundPage,

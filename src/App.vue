@@ -1,62 +1,60 @@
 <template>
   <!-- App -->
   <f7-app :params="f7params">
-
     <!-- Statusbar -->
     <f7-statusbar></f7-statusbar>
-
-    <!-- Left Panel -->
-    <f7-panel left reveal theme-dark>
-      <f7-view url="/panel-left/"></f7-view>
-    </f7-panel>
-
-    <!-- Right Panel -->
-    <f7-panel right cover theme-dark>
-      <f7-view url="/panel-right/"></f7-view>
-    </f7-panel>
-
     <!-- Main View -->
-    <f7-view id="main-view" url="/" main></f7-view>
 
-    <!-- Popup -->
-    <f7-popup id="popup">
-      <f7-view>
-        <f7-page>
-          <f7-navbar title="Popup">
-            <f7-nav-right>
-              <f7-link popup-close>Close</f7-link>
-            </f7-nav-right>
-          </f7-navbar>
-          <f7-block>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, architecto. Cupiditate laudantium rem nesciunt numquam, ipsam. Voluptates omnis, a inventore atque ratione aliquam. Omnis iusto nemo quos ullam obcaecati, quod.</f7-block>
-        </f7-page>
-      </f7-view>
-    </f7-popup>
+    <f7-views tabs>
 
-    <!-- Login Screen -->
-    <f7-login-screen id="login-screen">
-      <f7-view>
-        <f7-page login-screen>
-          <f7-login-screen-title>Login</f7-login-screen-title>
-          <f7-list form>
-            <f7-list-item>
-              <f7-label>Username</f7-label>
-              <f7-input name="username" placeholder="Username" type="text"></f7-input>
-            </f7-list-item>
-            <f7-list-item>
-              <f7-label>Password</f7-label>
-              <f7-input name="password" type="password" placeholder="Password"></f7-input>
-            </f7-list-item>
-          </f7-list>
-          <f7-list>
-            <f7-list-button title="Sign In" login-screen-close></f7-list-button>
-            <f7-block-footer>
-              <p>Click Sign In to close Login Screen</p>
-            </f7-block-footer>
-          </f7-list>
-        </f7-page>
-      </f7-view>
-    </f7-login-screen>
+      <div class="toolbar tabbar-labels toolbar-bottom">
+        <div class="toolbar-inner">
+          
+          <a href="#view-dialogue" class="tab-link">
+           <img src="./assets/images/navigation_news_unselected.png" alt="">
+            <!-- <i class="icon f7-icons ios-only">list</i> -->
+            <!-- <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+            <i class="icon material-icons md-only">view_list</i> -->
+            <span class="tabbar-label">对话</span>
+          </a>
+          <a href="#view-community" class="tab-link">
+            <img src="./assets/images/navigation_community_unselected.png" alt="">
+            <!-- <i class="icon f7-icons ios-only">settings</i> -->
+            <!-- <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i> -->
+            <span class="tabbar-label">社区</span>
+          </a>
+          <a href="#view-home" class="tab-link tab-link-active">
+            <img class="homeimg" src="./assets/images/navigation_find_white_border.png" alt="">
+            <!-- <i class="icon f7-icons ios-only">home</i> -->
+            <!-- <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i> -->
+            <!-- <i class="icon material-icons md-only">home</i> -->
+            <span class="tabbar-label">首页</span>
+          </a>
+          <a href="#view-resonance" class="tab-link">
+            <img src="./assets/images/navigation_soul_unselected.png" alt="">
+            <!-- <i class="icon f7-icons ios-only">settings</i> -->
+            <!-- <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i> -->
+            <span class="tabbar-label">共鸣</span>
+          </a>
+          <a href="#view-me" class="tab-link">
+            <img src="./assets/images/navigation_mine_unselected.png" alt="">
+            <!-- <i class="icon f7-icons ios-only">settings</i> -->
+            <!-- <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
+            <i class="icon material-icons md-only">settings</i> -->
+            <span class="tabbar-label">我的</span>
+          </a>
+        </div>
+      </div>
 
+
+      <f7-view tab tab-active id="view-home" url="/"></f7-view>
+      <f7-view tab id="view-dialogue" url="/dialogue/"></f7-view>
+      <f7-view tab id="view-community" url="/community/"></f7-view>
+      <f7-view tab id="view-resonance" url="/resonance/"></f7-view>
+      <f7-view tab id="view-me" url="/me/"></f7-view>
+    </f7-views>
   </f7-app>
 </template>
 
@@ -79,3 +77,18 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+  .toolbar-inner{
+    background: white;
+    border: 0;
+  }
+
+  .toolbar-inner a img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+</style>>
+
