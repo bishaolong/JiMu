@@ -48,7 +48,7 @@ npm run build
 
 手机扫码演示
 
-![二维码](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825230710.png)
+![二维码](https://note.youdao.com/yws/api/personal/file/90C4FA3DB23E42768AFAA57B46D29C27?method=download&shareKey=dcb17a08ef6f6821040c725215a99464)
 
 
 
@@ -133,13 +133,13 @@ npm run build
 
 ### 主页截图
 
-![主页截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\1566738180(1).jpg)![GIF](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\GIF.gif)
+![主页截图](https://note.youdao.com/yws/api/personal/file/497B9A6CD0B141D5B179595A1BA33BCB?method=download&shareKey=c6d811f6d26ddc6c40af311bab62390c)![GIF](https://note.youdao.com/yws/api/personal/file/D74699FCC577442AB7C87FCC2983AAC0?method=download&shareKey=9a63de8ac3aa47dd37f7cdfa39caf6a3)
 
 
 
 ### 共鸣截图
 
-![共鸣截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210318.png)
+![共鸣截图](https://note.youdao.com/yws/api/personal/file/8F82C970B255424CAD10E16F6CA36B0A?method=download&shareKey=ce60fc3bbf731f7c5b0a564a893c661e)
 
 
 
@@ -147,19 +147,19 @@ npm run build
 
 
 
-![个人中心截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210334.png)
+![个人中心截图](https://note.youdao.com/yws/api/personal/file/757751495FB54C88AA40941DC2DAEB6E?method=download&shareKey=82e2e31d82c11e7673fc074c785d7af7)
 
 
 
 ### 对话截图
 
-![对话截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210344.png)
+![对话截图](https://note.youdao.com/yws/api/personal/file/40858FEF0B9B4C8DAF26FAA68EAA97B5?method=download&shareKey=ff786107eb8571be250449a0871233ac)
 
 
 
 ### 社区截图
 
-![社区截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210354.png)![GIF2](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\GIF2.gif)
+![社区截图](https://note.youdao.com/yws/api/personal/file/0E4FD174333046BF8FD214AE63EF5DD1?method=download&shareKey=46a7cd79a9839f12d39a070b8f99c186)![GIF2](https://note.youdao.com/yws/api/personal/file/1D3B0EA6AD4447FBBAD852B452F36EB3?method=download&shareKey=5a404c556cc2849afbabc838c7424477)
 
 
 
