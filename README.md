@@ -48,7 +48,7 @@ npm run build
 
 手机扫码演示
 
-![QQ截图20190825230710](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825230710.png)
+![二维码](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825230710.png)
 
 
 
@@ -133,33 +133,33 @@ npm run build
 
 ### 主页截图
 
-![1566738180(1)](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\1566738180(1).jpg)![GIF](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\GIF.gif)
+![主页截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\1566738180(1).jpg)![GIF](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\GIF.gif)
 
 
 
 ### 共鸣截图
 
-![QQ截图20190825210318](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210318.png)
+![共鸣截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210318.png)
 
 
 
-### 我的截图
+### 个人中心截图
 
 
 
-![QQ截图20190825210334](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210334.png)
+![个人中心截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210334.png)
 
 
 
 ### 对话截图
 
-![QQ截图20190825210344](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210344.png)
+![对话截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210344.png)
 
 
 
 ### 社区截图
 
-![QQ截图20190825210354](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210354.png)![GIF2](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\GIF2.gif)
+![社区截图](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\QQ截图20190825210354.png)![GIF2](E:\JC5ZH\Vue\Vue-jimu\jimu\src\assets\screenshots\GIF2.gif)
 
 
 
