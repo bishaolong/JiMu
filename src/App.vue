@@ -9,42 +9,41 @@
 
       <div class="toolbar tabbar-labels toolbar-bottom">
         <div class="toolbar-inner">
-          
-          <a href="#view-dialogue" class="tab-link">
+
+          <f7-link tab-link='#view-dialogue'>
+          <!-- <a href="#view-dialogue" class="tab-link"> -->
            <img src="./assets/images/navigation_news_unselected.png" alt="">
-            <!-- <i class="icon f7-icons ios-only">list</i> -->
-            <!-- <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
-            <i class="icon material-icons md-only">view_list</i> -->
             <span class="tabbar-label">对话</span>
-          </a>
-          <a href="#view-community" class="tab-link">
+          <!-- </a> -->
+          </f7-link>
+
+          <f7-link tab-link='#view-community'>
+          <!-- <a href="#view-community" class="tab-link"> -->
             <img src="./assets/images/navigation_community_unselected.png" alt="">
-            <!-- <i class="icon f7-icons ios-only">settings</i> -->
-            <!-- <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
-            <i class="icon material-icons md-only">settings</i> -->
             <span class="tabbar-label">社区</span>
-          </a>
-          <a href="#view-home" class="tab-link tab-link-active">
+          <!-- </a> -->
+          </f7-link>
+
+          <f7-link tab-link="#view-home" tab-link-active>
+          <!-- <a href="#view-home" class="tab-link tab-link-active"> -->
             <img class="homeimg" src="./assets/images/navigation_find_white_border.png" alt="">
-            <!-- <i class="icon f7-icons ios-only">home</i> -->
-            <!-- <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i> -->
-            <!-- <i class="icon material-icons md-only">home</i> -->
             <span class="tabbar-label">首页</span>
-          </a>
-          <a href="#view-resonance" class="tab-link">
+          <!-- </a> -->
+          </f7-link>
+
+          <f7-link tab-link="#view-resonance">
+          <!-- <a href="#view-resonance" class="tab-link"> -->
             <img src="./assets/images/navigation_soul_unselected.png" alt="">
-            <!-- <i class="icon f7-icons ios-only">settings</i> -->
-            <!-- <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
-            <i class="icon material-icons md-only">settings</i> -->
             <span class="tabbar-label">共鸣</span>
-          </a>
-          <a href="#view-me" class="tab-link">
+          <!-- </a> -->
+          </f7-link>
+
+          <f7-link tab-link="#view-me">
+          <!-- <a href="#view-me" class="tab-link"> -->
             <img src="./assets/images/navigation_mine_unselected.png" alt="">
-            <!-- <i class="icon f7-icons ios-only">settings</i> -->
-            <!-- <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
-            <i class="icon material-icons md-only">settings</i> -->
             <span class="tabbar-label">我的</span>
-          </a>
+          <!-- </a> -->
+          </f7-link>
         </div>
       </div>
 
@@ -69,7 +68,8 @@ export default {
       f7params: {
         id: 'io.framework7.testapp', // App bundle ID
         name: 'Framework7', // App name
-        theme: 'auto', // Automatic theme detection
+        // theme: 'auto', // Automatic theme detection
+        theme: 'ios', // Automatic theme detection
         // App routes
         routes: routes,
       },

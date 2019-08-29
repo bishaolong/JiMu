@@ -52,36 +52,62 @@
           <f7-list-item class="in_content" v-for="(item, index) in items" :key="index"> 
 
             <div class="group">
+
               <div class="conLeft">
-                <a href=""><img src="../../assets/portrait/T1_pic.png" alt=""></a>
-                <a href=""><img src="../../assets/portrait/T4_pic.png" alt=""></a>
-              </div>
-              <div class="conRight">
-                <a href=""> <img src="../../assets/portrait/T3_pic.png" alt=""></a>
+                <f7-link>
+                  <img src="../../assets/portrait/T1_pic.png" alt=""> 
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T4_pic.png" alt="">
+                </f7-link>
               </div>
 
               <div class="conRight">
-                <a href=""><img src="../../assets/portrait/T5_pic.png" alt=""></a>
-              </div>
-              <div class="conLeft">
-                <a href=""><img src="../../assets/portrait/T2_pic.png" alt=""></a>
-                <a href=""><img src="../../assets/portrait/T6_pic.png" alt=""></a>
-              </div>
-
-              <div class="conLeft">
-                <a href=""><img src="../../assets/portrait/T7_pic.png" alt=""></a>
-                <a href=""><img src="../../assets/portrait/T8_pic.png" alt=""></a>
-              </div>
-              <div class="conRight">
-                <a href=""> <img src="../../assets/portrait/T9_pic.png" alt=""></a>
+                <f7-link>
+                  <img src="../../assets/portrait/T3_pic.png" alt="">
+                </f7-link>
               </div>
 
               <div class="conRight">
-                <a href=""><img src="../../assets/portrait/T10_pic.png" alt=""></a>
+                <f7-link>
+                  <img src="../../assets/portrait/T5_pic.png" alt="">
+                </f7-link>
               </div>
               <div class="conLeft">
-                <a href=""><img src="../../assets/portrait/T11_pic.png" alt=""></a>
-                <a href=""><img src="../../assets/portrait/T12_pic.png" alt=""></a>
+                <f7-link>
+                  <img src="../../assets/portrait/T2_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T6_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T7_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T8_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T9_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T10_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T11_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T12_pic.png" alt="">
+                </f7-link>
               </div>
             
             </div>
@@ -89,6 +115,357 @@
 
         </f7-list>
       </div>
+
+      <div id="tab-2" class="page-content tab"> 
+        <f7-list class="tab_inner">
+          <!-- :title="`Item ${item}`" -->
+          <f7-list-item class="in_content" v-for="(item, index) in items" :key="index"> 
+
+            <div class="group">
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T12_pic.png" alt=""> 
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T11_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T10_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T4_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T5_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T6_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T7_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T8_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T9_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T3_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T1_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T2_pic.png" alt="">
+                </f7-link>
+              </div>
+            
+            </div>
+          </f7-list-item>
+
+        </f7-list>
+      </div>
+
+      <div id="tab-3" class="page-content tab"> 
+        <f7-list class="tab_inner">
+          <!-- :title="`Item ${item}`" -->
+          <f7-list-item class="in_content" v-for="(item, index) in items" :key="index"> 
+
+            <div class="group">
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T7_pic.png" alt=""> 
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T6_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T8_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T5_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T9_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T4_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T10_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T3_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T11_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/T2_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/T12_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/T1_pic.png" alt="">
+                </f7-link>
+              </div>
+            
+            </div>
+          </f7-list-item>
+
+        </f7-list>
+      </div>
+
+      <div id="tab-4" class="page-content tab"> 
+        <f7-list class="tab_inner">
+          <!-- :title="`Item ${item}`" -->
+          <f7-list-item class="in_content" v-for="(item, index) in items" :key="index"> 
+
+            <div class="group">
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT7_pic.png" alt=""> 
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT6_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT8_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT5_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT9_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT4_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT10_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT3_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT11_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT2_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT12_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT1_pic.png" alt="">
+                </f7-link>
+              </div>
+            
+            </div>
+          </f7-list-item>
+
+        </f7-list>
+      </div>
+
+      <div id="tab-5" class="page-content tab"> 
+        <f7-list class="tab_inner">
+          <!-- :title="`Item ${item}`" -->
+          <f7-list-item class="in_content" v-for="(item, index) in items" :key="index"> 
+
+            <div class="group">
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT1_pic.png" alt=""> 
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT2_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT3_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT4_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT5_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT6_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT7_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT8_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT9_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT10_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT11_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT12_pic.png" alt="">
+                </f7-link>
+              </div>
+            
+            </div>
+          </f7-list-item>
+
+        </f7-list>
+      </div>
+
+      <div id="tab-6" class="page-content tab"> 
+        <f7-list class="tab_inner">
+          <!-- :title="`Item ${item}`" -->
+          <f7-list-item class="in_content" v-for="(item, index) in items" :key="index"> 
+
+            <div class="group">
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT12_pic.png" alt=""> 
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT11_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT10_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT9_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT8_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT7_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT6_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT5_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT4_pic.png" alt="">
+                </f7-link>
+              </div>
+
+              <div class="conRight">
+                <f7-link>
+                  <img src="../../assets/portrait/TT3_pic.png" alt="">
+                </f7-link>
+              </div>
+              <div class="conLeft">
+                <f7-link>
+                  <img src="../../assets/portrait/TT2_pic.png" alt="">
+                </f7-link>
+                <f7-link>
+                  <img src="../../assets/portrait/TT1_pic.png" alt="">
+                </f7-link>
+              </div>
+            
+            </div>
+          </f7-list-item>
+
+        </f7-list>
+      </div>
+
     </div>
 
   </f7-page>
