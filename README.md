@@ -55,7 +55,7 @@ npm run build
 
 
 
-[可下载 安装包]( https://service.dcloud.net.cn/build/download/e3329460-c74a-11e9-822e-d5f5328d6e9b)
+[可下载 安装包]( https://service.dcloud.net.cn/build/download/8e699f90-cb48-11e9-b499-b78327e2f093)
 
 
 ## 目标 功能
