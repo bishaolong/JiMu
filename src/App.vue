@@ -11,38 +11,62 @@
         <div class="toolbar-inner">
 
           <f7-link tab-link='#view-dialogue'>
-          <!-- <a href="#view-dialogue" class="tab-link"> -->
-           <img src="./assets/images/navigation_news_unselected.png" alt="">
+            <img src="./assets/images/navigation_news_unselected.png" alt=""
+            @click="viewRight"
+            v-show="isShow"
+            >
+
+            <img src="./assets/images/navigation_news_selected.png" alt=""
+            @click="viewRight"
+            v-show="!isShow"
+            style="display: none;"
+            >
             <span class="tabbar-label">对话</span>
-          <!-- </a> -->
+         
           </f7-link>
 
           <f7-link tab-link='#view-community'>
-          <!-- <a href="#view-community" class="tab-link"> -->
-            <img src="./assets/images/navigation_community_unselected.png" alt="">
+            <img src="./assets/images/navigation_community_unselected.png" alt=""
+            @click="viewRight2"
+            v-show="isShow2"
+            >
+            <img src="./assets/images/navigation_community_selected.png" alt=""
+            @click="viewRight2"
+            v-show="!isShow2"
+            style="display: none;"
+            >
             <span class="tabbar-label">社区</span>
-          <!-- </a> -->
           </f7-link>
 
           <f7-link tab-link="#view-home" tab-link-active>
-          <!-- <a href="#view-home" class="tab-link tab-link-active"> -->
-            <img class="homeimg" src="./assets/images/navigation_find_white_border.png" alt="">
+            <img src="./assets/images/navigation_find_white_border.png" alt="">
             <span class="tabbar-label">首页</span>
-          <!-- </a> -->
           </f7-link>
 
           <f7-link tab-link="#view-resonance">
-          <!-- <a href="#view-resonance" class="tab-link"> -->
-            <img src="./assets/images/navigation_soul_unselected.png" alt="">
+            <img src="./assets/images/navigation_soul_unselected.png" alt=""
+            @click="viewRight3"
+            v-show="isShow3"
+            >
+            <img src="./assets/images/navigation_soul_selected.png" alt=""
+            @click="viewRight3"
+            v-show="!isShow3"
+            style="display: none;"
+            >
             <span class="tabbar-label">共鸣</span>
-          <!-- </a> -->
           </f7-link>
 
           <f7-link tab-link="#view-me">
-          <!-- <a href="#view-me" class="tab-link"> -->
-            <img src="./assets/images/navigation_mine_unselected.png" alt="">
+            <img src="./assets/images/navigation_mine_unselected.png" alt=""
+            @click="viewRight4"
+            v-show="isShow4"
+            >
+            <img src="./assets/images/navigation_mine_selected.png" alt=""
+            @click="viewRight4"
+            v-show="!isShow4"
+            style="display: none;"
+            >
             <span class="tabbar-label">我的</span>
-          <!-- </a> -->
           </f7-link>
         </div>
       </div>
@@ -73,8 +97,26 @@ export default {
         // App routes
         routes: routes,
       },
+      isShow: true,
+      isShow2: true,
+      isShow3: true,
+      isShow4: true,
     }
-  }
+  },
+  methods:{
+      viewRight(){
+        this.isShow = !this.isShow;
+      },
+      viewRight2(){
+        this.isShow2 = !this.isShow2;
+      },
+      viewRight3(){
+        this.isShow3 = !this.isShow3;
+      },
+      viewRight4(){
+        this.isShow4 = !this.isShow4;
+      },
+    }
 }
 </script>
 
