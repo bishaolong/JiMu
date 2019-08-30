@@ -38,16 +38,16 @@
           <a href=""></a>
         </div>
         <div class="messAge">
-          <a href="">
+          <f7-link href='/dialogue/message/'>
             <span>刘波（官方客服）</span>
             <p>欢迎回来，仓库里的人类都堆满了，快去看...</p>
-          </a>
+          </f7-link>
         </div>
       </div>
 
       <img src="../../assets/images/bg_match_friend_empty.png" alt="">
 
-      <a href="" class="look">去看看</a>
+      <f7-link href="" class="look">去看看</f7-link>
 
 
     </div>

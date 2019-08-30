@@ -1,5 +1,6 @@
 import HomeIndexPage from './views/home/index.vue';
 import DialogueIndexPage from './views/dialogue/index.vue';
+  import MessageIndexPage from './views/dialogue/message.vue'
 import CommunityIndexPage from './views/community/index.vue';
 import ResonanceIndexPage from './views/resonance/index.vue';
 import MeIndexPage from './views/me/index.vue';
@@ -17,6 +18,12 @@ export default [
   {
     path: '/dialogue/',
     component: DialogueIndexPage,
+
+    routes:[{
+      path: '/message/',
+      component: MessageIndexPage,
+    }]
+
   },
   // 社区
   {
