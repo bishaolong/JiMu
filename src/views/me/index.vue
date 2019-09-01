@@ -5,15 +5,11 @@
       <f7-nav-right>
 
         <f7-link class='rightIcon'>
-          <a href="">
-            <img src="../../assets/images/icon_mine_button_edit.png" alt="">
-          </a>
+          <img src="../../assets/images/icon_mine_button_edit.png" alt="">
         </f7-link>
 
         <f7-link class='rightIcon'>
-          <a href="">
-            <img src="../../assets/images/icon_mine_button_setting.png" alt="">
-          </a>
+          <img src="../../assets/images/icon_mine_button_setting.png" alt="">
         </f7-link>
 
       </f7-nav-right>
@@ -112,10 +108,9 @@ export default {}
 <style scoped>
 
 /* 右图标 */
-  .rightIcon a img{
+  .rightIcon img{
     width: 1.5625rem;
     height: 1.5625rem;
-    margin-top: .9375rem;
   }
 
 /* main */

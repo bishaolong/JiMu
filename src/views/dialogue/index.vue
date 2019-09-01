@@ -49,10 +49,7 @@
 
       <f7-link href="" class="look">去看看</f7-link>
 
-
     </div>
-
-
 
   </f7-page>
 </template>
